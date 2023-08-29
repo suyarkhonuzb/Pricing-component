@@ -1,7 +1,7 @@
 /* GLOBAL */
 :root{
     --body-bg:#fff;
-    --text-color:#222;
+    --text-color:#6e728e;
 }
 
 html{
@@ -16,9 +16,10 @@ body{
     flex-direction: column;
     margin: 0;
     padding: 0;
-    font-size: 16px;
-    line-height: 1.5;
-    font-family: 'Roboto', 'Arial',  sans-serif;
+    font-size: 15px;
+    line-height:28px;
+    font-weight: 700;
+    font-family: 'Montserrat', 'Arial',  sans-serif;
 }
 
 *, *::before, *::after{
