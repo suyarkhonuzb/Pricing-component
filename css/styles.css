@@ -100,13 +100,6 @@ body{
     border-radius: 10px;
 }
 
-.professional-pricing .pricing-plan-features{
-    border-top: #fff;
-}
-.professional-pricing .pricing-plan-feature{
-    border-bottom: 1px solid #fff;
-}
-
 .pricing-plan-title {
     display: flex;
     justify-content: center;
@@ -150,8 +143,17 @@ body{
     text-align: center;
     padding-top: 12px;
     padding-bottom: 12px;
-    border-bottom: 1px solid #6e728e;
+    border-bottom: 1px solid #636393;
 }
+
+.professional-pricing .pricing-plan-features{
+    border-top: #fff;
+}
+
+.professional-pricing .pricing-plan-feature{
+    border-bottom: 1px solid #fff;
+}
+
 .button {
     padding: 14px 66px;
     text-align: center;
@@ -164,10 +166,25 @@ body{
     color:#fff;
     border-radius: 6px;
 }
+
 .button-primary {
-    background: linear-gradient(135deg, #A2A7F0 0%, #696EDD 100%);
+    color: #fff;
+    background-color: var(--element-bg);
 }
+
+.button-primary:hover{
+    color: var(--element-bg);
+    background-color: #fff;
+}
+
+
 .button-white {
     color: #6d72de;
     background-color: #fff;
+}
+
+.button-white:hover{
+    background-color: var(--element-bg) ;
+    color: #fff;
+    border: 1px solid #fff;
 }
